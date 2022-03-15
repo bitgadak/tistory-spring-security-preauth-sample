@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SystemAuthenticationProvider implements AuthenticationProvider {
 
-  private static final String SECRET_KEY = "secret-key";
+  private static final String SECRET_KEY = "password";
 
   @Override
   public Authentication authenticate(Authentication authentication) throws AuthenticationException {
